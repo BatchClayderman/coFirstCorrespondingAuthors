@@ -4,6 +4,8 @@ This project aims to provide corner-case typesetting for co-first and co-corresp
 
 See [https://blog.csdn.net/weixin_45726033/article/details/143378135](https://blog.csdn.net/weixin_45726033/article/details/143378135) in Chinese if necessary. 
 
+---
+
 ## Elsevier
 
 The best-looking template, with no objections accepted. 
