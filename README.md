@@ -139,13 +139,13 @@ Alternatively, if the conference organizer requests that the quote box be remove
 }
 ```
 
-调整标题字号为四号加粗可将 ``\title`` 命令作如下修改：
+To adjust the title font size to 4 bold, you can modify the ``\title`` command as follows: 
 
 ```
 \title{\fontsize{12pt}{14.4pt}\selectfont \textbf{Your Title}}
 ```
 
-若要两栏末尾对齐，则可导入以下宏包：
+If you want to align the ends of the two columns, you can import the following macro package: 
 
 ```
 \usepackage{flushend}
@@ -153,9 +153,9 @@ Alternatively, if the conference organizer requests that the quote box be remove
 
 ---
 
-## IEEE 期刊
+## IEEE Journal
 
-风格类似于 IEEE 会议，但略有不同。如果使用 IEEE 会议的模板排版 IEEE 期刊，大概率会出问题。另外，IEEE 每个期刊都有自己的一个模板，可从 [https://template-selector.ieee.org/secure/templateSelector/publicationType](https://template-selector.ieee.org/secure/templateSelector/publicationType) 进行选择和下载。此处的作者排版说明将按最大的通用性进行。同理，在 ``\title`` 和 ``\maketitle`` 之间使用以下内容，使用 ``\textsuperscript{\textdagger}`` 标记共一，``*`` 标记通讯作者，``\thanks`` 变成了单位说明（完整句子那种）。
+The style is similar to that of IEEE conferences, but slightly different. If you use the template of the IEEE conference to typeset an IEEE journal, there is a high probability that there will be problems. In addition, each IEEE journal has its own template, which can be selected and downloaded from [https://template-selector.ieee.org/secure/templateSelector/publicationType](https://template-selector.ieee.org/secure/templateSelector/publicationType). The author typesetting instructions here will be as general as possible. Similarly, use the following content between ``\title`` and ``\maketitle``, use ``\textsuperscript{\textdagger}`` to mark common, ``*`` to mark the corresponding author, and ``\thanks`` becomes a unit description (the kind of complete sentence). 
 
 ```
 \author{
@@ -171,7 +171,7 @@ Alternatively, if the conference organizer requests that the quote box be remove
 
 ## ACM
 
-类似地，在 ``\title`` 和 ``\maketitle`` 之间使用以下内容。
+Similarly, use the following between ``\title`` and ``\maketitle``. 
 
 ```
 \author{San Zhang\textsuperscript{#}}
@@ -227,7 +227,7 @@ Alternatively, if the conference organizer requests that the quote box be remove
 \renewcommand{\shortauthors}{Zhang S, Li S, Wang W, et al. }
 ```
 
-类似地，在 ``\maketitle`` 和 ``\begin{abstract}`` 之间放置以下内容解释共一和共同通讯记号。
+Similarly, place the following between ``\maketitle`` and ``\begin{abstract}`` to explain the common identity and common correspondence notation. 
 
 ```
 \renewcommand{\thefootnote}{}
@@ -235,3 +235,6 @@ Alternatively, if the conference organizer requests that the quote box be remove
 \footnotetext{* Corresponding author(s): Liu Zhao (\url{liuzhao@gmail.com}) and Qi Sun (\url{qisun@gmail.com}). }
 ```
 
+---
+
+Wish you all the best! 
